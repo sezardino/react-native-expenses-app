@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-expense-app",
-    "slug": "react-native-expense-app",
+    "name": "react-native-expenses-app",
+    "slug": "react-native-expenses-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
