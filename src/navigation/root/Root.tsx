@@ -11,7 +11,7 @@ const Stack = createStackNavigator<RootStackParamList>();
 export const RootNavigator = () => {
   return <NavigationContainer>
     <Stack.Navigator>
-      <Stack.Screen name={RootScreens.ExpensesOverview} component={TabsNavigator} />
+      <Stack.Screen name={RootScreens.ExpensesOverview} component={TabsNavigator} options={{ headerShown: false }} />
       <Stack.Screen name={RootScreens.ManageExpenses} component={ManageExpense} />
     </Stack.Navigator>
   </NavigationContainer>
